@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ja" class="no-js lt-ie9 lt-ie8 lt-ie7" ><![endif]-->
+<!--[if IE 7]>
+<html lang="ja" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="ja" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ja" class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+  <title>Chiba Mine 地雷女を避けろ！</title>
+  <meta name="description" content="地雷女を避けつつ、空のマス目を全部開ける新感覚スタイリッシュてぃばゲーです。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:title" content="Chiba Mine 地雷女を避けろ！" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://chibagame.rechiba3.net/chibamine/" />
+  <meta property="og:description" content="【Chiba Game】地雷女を避けつつ、空のマスを全部開ける新感覚スタイリッシュてぃばゲーです。" />
+  <meta property="og:site_name" content="Chiba Mine 地雷女を避けろ！" />
+  <meta property="og:image" content="http://chibagame.rechiba3.net/chibamine/img/chiba300.jpg" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@rechiba3">
+
+  <link rel="canonical" href="http://chibagame.rechiba3.net/chibamine/">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <script src="js/modernizr.min.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-42655851-3', 'rechiba3.net');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+<body itemscope itemtype="http://schema.org/WebPage">
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container">
+
+  <header class="header">
+    <h1><img itemprop="image" src="img/chibamine_logo.png" alt="Chiba Mine てぃばマイン" width="253" height="65" /></h1>
+  </header>
+
+  <aside>
+    <ul class="sns">
+      <li class="fb">
+        <div class="fb-like" data-href="http://chibagame.rechiba3.net/chibamine/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>      </li>
+      <li class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://chibagame.rechiba3.net/chibamine/" data-via="rechiba3" data-hashtags="てぃばゲー">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </li>
+      <li>
+        <a href="http://b.hatena.ne.jp/entry/http://chibagame.rechiba3.net/chibamine/" class="hatena-bookmark-button" data-hatena-bookmark-title="Chiba Mine 地雷女を避けろ！" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+      </li>
+    </ul>
+  </aside>
+
+  <section class="game">
+    <table id="board"></table>
+    <button id="reset">もう一度プレイ</button>
+    <article id="result"></article>
+  </section>
+
+  <article itemprop="description" class="summary">
+    <h2>遊び方</h2>
+    <ul>
+      <li>地雷女を避けつつ、空のマスを全部開けられればクリアです。</li>
+      <li>地雷女が居るマスを開けてしまうと、そこでゲームオーバーです。</li>
+      <li>表示される数字は、周囲の8個のマスに隠れている地雷女の人数を示します。</li>
+      <li>右クリックもしくはロングタッチでマスに目印<i class="fa fa-check"></i>を付けることが出来ます。</li>
+    </ul>
+  </article>
+
+  <aside>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- chibamine -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:468px;height:60px"
+         data-ad-client="ca-pub-8882921596311592"
+         data-ad-slot="8299808663"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </aside>
+
+</div>
+
+<footer class="footer">
+  <small itemprop="copyrightHolder">&copy; 2014 chibagame.rechiba3.net</small>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
