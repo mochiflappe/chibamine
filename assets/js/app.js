@@ -102,7 +102,7 @@
   }
 
   function click(e) {
-    var bombImg = '<img src="img/chiba_bomb.png" alt="Chiba Bomb" width="22" height="22">';
+    var bombImg = '<img src="assets/images/chiba_bomb.png" alt="Chiba Bomb" width="22" height="22">';
     var src;
     if (opened === 0) {
       startTime = new Date().getTime();
